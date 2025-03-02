@@ -1,0 +1,16 @@
+{{ $url := .url }}
+{{ $icon := .icon }}
+{{ $renderedIcon := resources.Get (print "icons/" $icon ".svg") }}
+
+  <a
+    href="{{ $url }}"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    >
+    <span class="relative inline-block align-middle" style="width: 12px">
+      {{- $renderedIcon.Content | safeHTML -}}
+    </span>
+  </a>
+
+{{- /* Trim EOF */ -}}

@@ -1,0 +1,9 @@
+baseURL = "https://developer.porn/"
+languageCode = "en"
+ # JSON is necessary for search, and seems not to be the default
+ # even though docs say it is
+outputs.home = ["HTML", "RSS", "JSON"]
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-8HYMZKHCM8'

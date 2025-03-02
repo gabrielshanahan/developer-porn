@@ -1,0 +1,26 @@
+colorScheme = "mine"
+defaultThemeColor = "#ff9c1a"
+defaultAppearance = "dark"
+enableSearch = true
+enableCodeCopy = true
+# Seems like this needs to be reversed for some reason...
+header.logo = "images/logo_dark.webp"
+header.logoDark =  "images/logo_light.webp"
+header.showTitle = false
+header.layout = "hybrid"
+
+footer.showThemeAttribution = false
+footer.showAppearanceSwitcher = true
+
+homepage.layout = "profile"
+
+article.showBreadcrumbs = true
+article.showEdit = true
+article.editURL = "https://github.com/gabrielshanahan/developer-porn/issues/new?title=Edit%20request:%20"
+article.showTableOfContents = true
+article.showTaxonomies = true
+article.sharingLinks = ["x-twitter", "reddit", "linkedin", "email"]
+
+list.showSummary = true
+list.groupByYear = false
+
