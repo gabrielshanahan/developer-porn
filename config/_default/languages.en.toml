@@ -1,0 +1,17 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "developer.porn"
+
+[params.author]
+name = "Gabriel Shanahan"
+image = "images/author.jpg"
+headline = "Author, Developer & Crusader"
+bio = "A little bit about me"
+links = [
+  { github = "https://github.com/gabrielshanahan" },
+  { twitter = "https://x.com/gabe_shanahan" },
+  { linkedin = "https://www.linkedin.com/in/gabrielshanahan/" }
+]
