@@ -1,0 +1,6 @@
+.DS_Store
+
+# temporary file used to prevent concurrent builds
+.hugo_build.lock
+
+public/
