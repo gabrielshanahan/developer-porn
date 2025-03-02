@@ -1,0 +1,26 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "developer.porn"
+
+[params]
+images = ["images/og.webp"]
+description = "Read about unique topics in software development, spice up your internet history, and stress-test your workplace content filters - all with one click."
+keywords = [
+    "Gabriel Shanahan", "Software architecture", "Clean code principles", "Software engineering best practices", "Code quality and maintainability", "Modern development practices",
+    "Developer best practices", "Programming insights", "Software development blog", "Self-taught developer"
+]
+robots="index, follow"
+
+[params.author]
+name = "Gabriel Shanahan"
+image = "images/author.jpg"
+headline = "Developer, Preacher & Crusader"
+bio = "Developer, Preacher & Crusader"
+links = [
+  { github = "https://github.com/gabrielshanahan/" },
+  { twitter = "https://x.com/gabe_shanahan" },
+  { linkedin = "https://www.linkedin.com/in/gabrielshanahan/" }
+]

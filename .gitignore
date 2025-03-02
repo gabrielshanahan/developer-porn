@@ -1,0 +1,22 @@
+*.DS_Store
+
+# Emacs temp files
+\#*
+
+# Temporary file used to prevent concurrent builds
+.hugo_build.lock
+
+
+## Hugo generated files
+# Output folder
+public/
+# Asset pipeline output folder
+resources/_gen/
+# If you're bundling JS via Hugo Pipes
+assets/js/bundle.js
+
+## Local development files
+# Used for Tailwind's JIT mode (if applicable)
+hugo_stats.json
+# If using npm/yarn for frontend assets
+node_modules/
