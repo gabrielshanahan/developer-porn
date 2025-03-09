@@ -1,0 +1,18 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "developer.porn"
+params.description = "Read about fundamental topics in software development, spice up your internet history, and stress-test your workplace content filters - all with one click."
+
+[params.author]
+name = "Gabriel Shanahan"
+image = "images/author.jpg"
+headline = "Developer, Preacher & Crusader"
+bio = "Developer, Preacher & Crusader"
+links = [
+  { github = "https://github.com/gabrielshanahan/" },
+  { twitter = "https://x.com/gabe_shanahan" },
+  { linkedin = "https://www.linkedin.com/in/gabrielshanahan/" }
+]
