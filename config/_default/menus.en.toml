@@ -1,0 +1,46 @@
+[[main]]
+  name = "Articles"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "About me"
+  pageRef = "author"
+  weight = 20
+
+[[main]]
+  identifier = "separator-1"
+  weight = 30
+  [main.params]
+    action="separator"
+
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/gabrielshanahan"
+  weight = 40
+  [main.params]
+    icon = "github"
+    showName = false
+    target = "_blank"
+
+[[main]]
+  name = "Kotlin Primer"
+  url = "https://www.kotlinprimer.com/"
+  weight = 50
+  [main.params]
+    icon = "kotlin-primer"
+    showName = false
+    target = "_blank"
+
+[[main]]
+  identifier = "separator-2"
+  weight = 60
+  [main.params]
+    action="separator"
+
+[[main]]
+  identifier = "search"
+  weight = 99
+  [main.params]
+    action = "search"
+    icon = "search"
