@@ -1,0 +1,3 @@
+{{- $coloredText := .Get 0 -}}
+{{- $restText := or (.Get 1)  "" -}}
+<span style="color:rgba(var(--color-primary-400),1)"><em>{{- $coloredText -}}</em></span>{{- $restText -}}
