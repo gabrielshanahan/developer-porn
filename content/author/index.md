@@ -12,11 +12,11 @@ aspect of the path I've been on.
 
 I earned my Bachelor's degree from University of West Bohemia, where I graduated summa cum laude. I originally studied
 pure mathematics for two semesters but switched to [cybernetics](https://en.wikipedia.org/wiki/Cybernetics) because the
-math was more interesting. In the western world, cybernetics is more commonly known as control theory.
+math was more interesting. In the western world, cybernetics is more commonly known as [control theory](https://en.wikipedia.org/wiki/Control_theory).
 
 After graduating, I became co-owner of SugarFactory, a [SugarCRM](https://www.sugarcrm.com/) Reseller Partner. With me
 serving as its CTO, we built SugarFactory from the ground up and became one of the fastest-growing SugarCRM partners in
-Europe, achieving Elite status in just under two years. SugarFactory was eventually acquired by
+Europe, achieving Elite status in just under two years. SugarFactory was eventually
 [acquired](https://www.algotech.cz/novinky/2018-05-17-algotech-a-sugar-factory-se-spojili-s-cilem-dodavat-spickove-reseni-crm)
 by [Algotech a.s.](https://en.algotech.cz/).
 
@@ -30,8 +30,11 @@ At about the same time I joined a mid-sized Java-centric organization, where I k
 migration to Kotlin. It was during this time, and for this purpose, that I wrote the first version of what would become
 the [Kotlin Primer](https://www.kotlinprimer.com/).
 
-My recent career has been centered in the JVM world, where I have experience building applications with Spring Boot, and
-event-sourced CQRS applications built with [Axon](https://www.axoniq.io/products/axon-framework).
+My recent career has been centered in the JVM world, where I've built and maintained traditional applications with
+Spring Boot and event-sourced CQRS applications with [Axon](https://www.axoniq.io/products/axon-framework). It was my
+experience (and frustration) with the latter that led me to design [structured
+cooperation](/posts/introducing-structured-cooperation/) and implement a
+POC---[Scoop](https://github.com/gabrielshanahan/scoop).
 
 Outside of my career, I like to explore less conventional areas---currently, it's Haskell and functional programming in
 general, and Common Lisp.

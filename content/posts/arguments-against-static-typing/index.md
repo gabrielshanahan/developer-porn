@@ -11,7 +11,7 @@ hackernews: "https://news.ycombinator.com/item?id=43487861"
 ## Introduction
 
 The debate between static and dynamic typing has been going on for as long as they have existed, and while I think it's
-actually [very easy to settle]({{< relref "how-to-win-type-wars/index.md" >}}), I did wanted to take out some time to
+actually [very easy to settle](/posts/how-to-win-type-wars), I did wanted to take out some time to
 address the most common ones.
 
 ## Static typing

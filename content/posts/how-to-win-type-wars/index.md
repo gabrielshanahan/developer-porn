@@ -13,7 +13,7 @@ languages optimize for,** and any good engineer should understand what that diff
 when they should choose which.
 
 I've already made the case for static typing [in a separate
-article]({{< relref "arguments-against-static-typing/index.md" >}}), so I won't reproduce it here. Instead, I want to dig
+article](/posts/arguments-against-static-typing), so I won't reproduce it here. Instead, I want to dig
 into **why the arguments on both sides feel so compelling to the side that puts them forth, touch on an analogy that
 drives the whole thing home, and finish by making a short stop in a place not many people get to visit---Common Lisp.**
 
