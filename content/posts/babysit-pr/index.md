@@ -84,3 +84,36 @@ To set it up:
 4. Run `/babysit-pr https://github.com/you/repo/pull/42`, or just tell Claude to babysit a PR
 
 Stop it anytime by closing the Claude session, or asking it to stop babysitting the PR.
+
+## The bigger picture
+
+It's worth stepping back and noticing what I actually did here: I routed my AI interactions through *GitHub pull
+requests*. That's not a natural (or particularly secure) home for this---it's a workaround. A pretty good one,
+but still---I'm piggybacking on code review infrastructure because it happens to have the threading model I want.
+
+So, why *doesn't* this exist natively? Chat became the default AI interaction model, I think, mostly
+because LLMs arrived as chatbots. That made sense at first. But somewhere along the way, AI went from "thing I ask
+questions" to "thing I build stuff with," and the interface didn't really keep up. **When you're collaborating on an
+artifact, the artifact is the main thing.** The conversation is secondary---it's how you shape the artifact, not the
+point of the interaction.
+
+At the same time, it should be said that threaded conversations on artifacts aren't a new idea at all. Google Docs has had comment
+threads on paragraphs for years. Figma lets you pin discussions to specific points on a design. PRs anchor threads to
+lines of code. The pattern is well-established. It's just that when AI got added to these kinds of workflows, it mostly
+showed up as a sidebar chat rather than plugging into the threading that was already there. I'm sure
+there are tools that do this right, but most of the time the interaction model for AI, especially on the web and in agents,
+is still a chat window.
+
+I think there's something to the idea of AI agents, and AI web interfaces, supporting this natively---not "here's a chat window, and also here's
+your document," but "here's your document, and you can talk to the AI about any part of it, right there." Each thread
+as its own conversation with its own context. Six discussions going at once on six different parts of the thing, none of
+them stepping on each other. Claude Code sorta-kinda took a step in this direction with its recent addition of `/btw`,
+but that's still a long way from what I'm talking about here.
+
+And it doesn't have to be code. Any artifact with addressable parts could work this way---a contract where you're
+discussing clause 4.2 in one thread and the indemnification section in another, a data pipeline config where you're
+asking about the transform step separately from the source connector, a design mockup with one conversation about the
+navigation and another about the color palette. Even an image region, or a section of an audio file.
+
+For now, I've got a polling loop built on `gh` and `jq`, and honestly, it works better than I expected. But I'd love to
+not have to need it.
