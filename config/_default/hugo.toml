@@ -3,6 +3,8 @@ languageCode = "en"
  # JSON is necessary for search, and seems not to be the default
  # even though docs say it is
 outputs.home = ["HTML", "RSS", "JSON"]
+ # Serve the theme's robots.txt so crawlers find the sitemap
+enableRobotsTXT = true
 
 [services]
   [services.googleAnalytics]
